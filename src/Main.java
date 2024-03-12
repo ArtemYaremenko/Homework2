@@ -63,9 +63,13 @@ public class Main {
         System.out.println();
 
         //Восьмое задание
-
-
-
+        var generalWorkHours = 640;
+        var personWorkHours = 8;
+        var workers = generalWorkHours / personWorkHours;
+        System.out.println("Всего работников компании " + workers + " человек");
+        workers = workers + 94;
+        generalWorkHours = workers * personWorkHours;
+        System.out.println("Если в компании работает " + workers + " человек, то всего " + generalWorkHours + " часов работы может быть поделено между сотрудниками");
 
     }
 }
