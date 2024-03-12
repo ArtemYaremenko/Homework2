@@ -58,6 +58,12 @@ public class Main {
         System.out.println();
 
         //Седьмое задание
+        var remainderOfDivision = boxerWeight2 % boxerWeight1;
+        System.out.println(remainderOfDivision);
+        System.out.println();
+
+        //Восьмое задание
+
 
 
     }
